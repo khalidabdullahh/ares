@@ -1,12 +1,8 @@
 # ⚡ A.R.E.S. (Adaptive Reasoning & Execution System)
 
-<p align="center">
-  <img src="ares_terminal.png" alt="ARES Executive Terminal Interface" width="100%" />
-</p>
-
 <div align="center">
 
-<img src="docs/assets/ares_thumbnail_dark.jpg" alt="A.R.E.S. Hero Showcase" width="100%" style="border-radius: 12px;" />
+<img src="docs/assets/ares_social_preview.png" alt="A.R.E.S. Logo Showcase" width="100%" style="border-radius: 12px;" />
 
 <br/><br/>
 
