@@ -142,8 +142,8 @@ For detailed architecture analysis, consult the [Architecture Document](docs/ARC
 
 <p>
   <a href="https://github.com/khalidabdullahh"><img src="https://img.shields.io/badge/GitHub-khalidabdullahh-181717?style=flat-square&logo=github" alt="GitHub" /></a>
-  <a href="https://khalid-digital-lab.vercel.app/"><img src="https://img.shields.io/badge/Website-Khalid's%20Digital%20Lab-00d2ff?style=flat-square&logo=vercel" alt="Website" /></a>
-  <a href="https://twitter.com/khalid_al_raed"><img src="https://img.shields.io/badge/Twitter-@khalid__al__raed-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <a href="https://khalidslab.pages.dev"><img src="https://img.shields.io/badge/Website-khalidslab.pages.dev-00d2ff?style=flat-square&logo=cloudflarepages" alt="Website" /></a>
+  <a href="https://twitter.com/voiceoffkhalid"><img src="https://img.shields.io/badge/Twitter-@voiceoffkhalid-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" /></a>
 </p>
 
 > *"Computer Science student with an insatiable curiosity for Technology, Mathematics, and Problem Solving — learning, building, and exploring where ideas meet code."*
