@@ -130,7 +130,33 @@ For detailed architecture analysis, consult the [Architecture Document](docs/ARC
 
 ---
 
+## 👨‍💻 Creator & Lead Architect
+
+<div align="center">
+
+<img src="https://avatars.githubusercontent.com/u/191352772?v=4" width="110" height="110" style="border-radius: 50%; box-shadow: 0 4px 14px rgba(0,210,255,0.4);" alt="Khalid Abdullah" />
+
+### **Khalid Abdullah**
+<i>Computer Science Student & Systems Builder</i><br/>
+📍 **Bangladesh** 🇧🇩
+
+<p>
+  <a href="https://github.com/khalidabdullahh"><img src="https://img.shields.io/badge/GitHub-khalidabdullahh-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+  <a href="https://khalid-digital-lab.vercel.app/"><img src="https://img.shields.io/badge/Website-Khalid's%20Digital%20Lab-00d2ff?style=flat-square&logo=vercel" alt="Website" /></a>
+  <a href="https://twitter.com/khalid_al_raed"><img src="https://img.shields.io/badge/Twitter-@khalid__al__raed-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" /></a>
+</p>
+
+> *"Computer Science student with an insatiable curiosity for Technology, Mathematics, and Problem Solving — learning, building, and exploring where ideas meet code."*
+
+<p>
+  💬 Join the official launch discussion: <a href="https://github.com/khalidabdullahh/ares/discussions/1"><b>[A.R.E.S. Launch Announcement]</b></a>
+</p>
+
+</div>
+
+---
+
 ## 📄 License & Attribution
 
-Architected and developed by [Khalid Abdullah](https://github.com/khalidabdullahh).
-Released under the MIT License.
+Architected and developed by [Khalid Abdullah](https://github.com/khalidabdullahh).  
+Licensed under the [MIT License](LICENSE).
