@@ -1,0 +1,44 @@
+# ==========================================
+# A.R.E.S. Git Exclusion & Privacy Shield
+# ==========================================
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Secrets & Environment Configurations
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python Bytecode & Runtime Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Runtime Temporary Files & Audio Cache
+*.mp3
+*.wav
+temp/
+audio_cache/
+
+# Operating System Metadata
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# PROPRIETARY & CONFIDENTIAL CODEBASE
+# (Guaranteed Zero-Leak from Public Repo)
+# ==========================================
+core/
+ares/
+config.py
+main.py
+private/
+secrets/
+prompts/
