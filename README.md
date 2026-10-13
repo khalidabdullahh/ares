@@ -1,5 +1,9 @@
 # ⚡ A.R.E.S. (Adaptive Reasoning & Execution System)
 
+<p align="center">
+  <img src="ares_terminal.png" alt="ARES Executive Terminal Interface" width="100%" />
+</p>
+
 <div align="center">
 
 ![GitHub Stars](https://img.shields.io/github/stars/khalidabdullahh/ares?style=for-the-badge&logo=github&color=00d2ff)
