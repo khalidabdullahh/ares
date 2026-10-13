@@ -15,7 +15,7 @@
 ![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![Inference](https://img.shields.io/badge/Inference-Local%20Ollama%20%7C%20Air--Gapped-2ea44f?style=for-the-badge)
 ![Voice Engine](https://img.shields.io/badge/Speech-Neural%20Edge--TTS-9b59b6?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-f1c40f?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Proprietary-e74c3c?style=for-the-badge)
 
 <br/>
 
