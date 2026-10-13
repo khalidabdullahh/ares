@@ -1,33 +1,57 @@
-# A.R.E.S. (Autonomous & Responsive Executive System)
+# ⚡ A.R.E.S. (Adaptive Reasoning & Execution System)
 
-<p align="center">
-  <b>A Private, Voice-Enabled Executive Terminal AI Companion</b><br>
-  <i>Engineered for zero-leak local computation, low-latency neural speech synthesis, and autonomous workflow assistance.</i>
-</p>
+<div align="center">
+
+![GitHub Stars](https://img.shields.io/github/stars/khalidabdullahh/ares?style=for-the-badge&logo=github&color=00d2ff)
+![Python Version](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Inference](https://img.shields.io/badge/Inference-Local%20Ollama%20%7C%20Air--Gapped-2ea44f?style=for-the-badge)
+![Voice Engine](https://img.shields.io/badge/Speech-Neural%20Edge--TTS-9b59b6?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-f1c40f?style=for-the-badge)
+
+<br/>
+
+<h3><b>The Next-Generation Private, Voice-Enabled Executive Terminal AI Companion</b></h3>
+<i>Engineered for zero-leak local computation, low-latency neural speech synthesis, and autonomous operating system execution.</i>
+
+</div>
 
 ---
 
-## 🛰️ Overview & Core Concept
+## 🚀 Why A.R.E.S. vs Legacy Voice Assistants?
 
-**A.R.E.S.** is a privacy-first, next-generation AI terminal assistant. Unlike traditional cloud-locked AI clients that harvest telemetry and user conversations, A.R.E.S. is built from the ground up on the principle of **Local-First Data Sovereignty**.
+Most open-source JARVIS projects rely on brittle, 1990s-era `if "keyword" in query:` matching and robotic `pyttsx3` synthesizers. 
 
-The system pairs an advanced multi-model inference pipeline with high-fidelity neural speech synthesis (`Edge-TTS`) and a live terminal HUD built on `Rich`.
+**A.R.E.S.** replaces obsolete keyword scripts with a modern **Cognitive LLM Brain** and **Neural Speech Synthesis**:
+
+| Feature | Legacy Rule-Based Assistants | ⚡ A.R.E.S. (Adaptive Reasoning & Execution) |
+| :--- | :--- | :--- |
+| **Cognitive Intelligence** | ❌ Rigid `if/else` keyword regex matching | **True Cognitive LLM** (Ollama: Llama 3.2, DeepSeek, Qwen) |
+| **Speech Quality** | ❌ Robotic, monotonous `pyttsx3` (SAPI5/eSpeak) | **Ultra-realistic Neural Voice** (`Edge-TTS` + macOS `afplay`) |
+| **Operating System Control** | ⚠️ Hardcoded system scripts prone to crashes | **Action Dispatch Engine** (Apps, Volume, Media, Screenshots) |
+| **Hardware Telemetry** | ⚠️ Basic prints | **Live Host Telemetry** (CPU load, RAM MB, Battery, Disk free) |
+| **Privacy & Sovereignty** | ❌ Unencrypted API endpoints & hardcoded tokens | **100% Air-Gapped Sandbox** (Zero telemetry, Zero data leak) |
+| **Terminal Experience** | ❌ Plain terminal text | **Cyberpunk Sci-Fi HUD** (`Rich` streaming tables & panels) |
+
+---
+
+## 🛰️ Architecture & System Blueprint
 
 ```
                   ┌──────────────────────────────────────────────┐
-                  │                 USER INPUT                   │
-                  │         (CLI / Command / Audio)              │
+                  │                 USER QUERY                   │
+                  │         (CLI Terminal / Voice Audio)         │
                   └──────────────────────┬───────────────────────┘
                                          │
                                          ▼
                   ┌──────────────────────────────────────────────┐
                   │            A.R.E.S. ORCHESTRATOR             │
-                  │   - Intent Classification                    │
-                  │   - Memory & Context Pruning                 │
-                  │   - Tool Sandboxing & Execution Safeguards   │
+                  │   - Intent Classification & Cognitive Parse  │
+                  │   - Sliding Window Context Memory            │
+                  │   - Action Safeguards & Sandbox Dispatcher   │
                   └──────────────┬────────────────┬──────────────┘
                                  │                │
-            Local Pipeline       │                │ Cloud Fallback (Opt-in)
+            Air-Gapped Pipeline  │                │ Cloud Fallback (Opt-in)
                                  ▼                ▼
                      ┌──────────────────┐  ┌──────────────────┐
                      │  OLLAMA / LOCAL  │  │  SECURE API HUB  │
@@ -35,34 +59,50 @@ The system pairs an advanced multi-model inference pipeline with high-fidelity n
                      └─────────┬────────┘  └────────┬─────────┘
                                │                    │
                                └──────────┬─────────┘
-                                          │ Streaming Token Buffer
+                                          │
                                           ▼
                 ┌────────────────────────────────────────────────┐
                 │             DUAL OUTPUT ENGINE                 │
                 │                                                │
                 │  [Rich Terminal HUD]       [Edge-TTS Stream]   │
-                │   - Live Markdown           - Sentence Queue   │
-                │   - Glowing Status          - macOS afplay     │
-                │   - Action Badges           - Neural Voices    │
+                │   - Live Markdown Stream    - Sentence Queue   │
+                │   - Cyberpunk Badges        - macOS afplay     │
+                │   - Action Telemetry Box    - British / Neural │
                 └────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🛡️ Core Mechanism & Architecture
+## 🛠️ Key Capabilities & Actions
 
-### 1. Dual-Tier Inference Engine
-- **Tier 1 (Air-Gapped / Local)**: Direct connection to local inference runtimes (`Ollama`, `vLLM`, `LocalAI`). Your prompts, source code, and queries never leave your local hardware.
-- **Tier 2 (Accelerated Inference)**: Optional, zero-retention cloud acceleration (Groq, Gemini, OpenAI) for ultra-low latency conversational queries when local GPUs are offline.
+- 🎙️ **Hyper-Realistic Neural Speech**: Low-latency voice streaming using Microsoft Edge Neural models (`en-GB-RyanNeural`, `en-US-ChristopherNeural`, `bn-BD-PradeepNeural`).
+- 📸 **Retina Screenshot Capture**: Instant desktop capture saved directly to macOS Desktop.
+- 🌦️ **Zero-Key Live Weather**: Real-time atmospheric conditions and temperatures via lightweight endpoints.
+- 🎵 **Native Media & Music Control**: Automated play, pause, and track skip for Spotify and Apple Music via AppleScript.
+- 🖥️ **System Telemetry**: Continuous monitoring of battery health, CPU load, memory utilization, and disk availability.
+- 🌐 **Web Intelligence & Application Control**: Autonomous Google searching and desktop app launching.
 
-### 2. Low-Latency Neural Voice Pipeline
-- Decoupled, asynchronous speech synthesis using **Edge Neural Text-to-Speech**.
-- Real-time sentence chunking allows speech playback to begin on the very first completed sentence, eliminating latency while the LLM continues generating the remainder of the response.
-- Native, zero-dependency audio execution on macOS via `/usr/bin/afplay`.
+---
 
-### 3. Rich Terminal Interface (ARES HUD)
-- Sci-Fi / Cyberpunk terminal styling with real-time token stream rendering.
-- Collapsible thinking/reasoning blocks, system telemetry, and responsive visual indicators.
+## ⚡ Quickstart
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/khalidabdullahh/ares.git
+cd ares
+```
+
+### 2. Install Dependencies
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### 3. Launch Local Ollama Brain
+```bash
+ollama run llama3.2
+```
 
 ---
 
@@ -76,27 +116,12 @@ For detailed architecture analysis, consult the [Architecture Document](docs/ARC
 
 ---
 
-## ⚡ Quickstart & Configuration
-
-### Prerequisites
-- Python 3.10+
-- macOS (recommended for native `afplay` hardware audio acceleration) or Linux
-
-### Environment Configuration
-```bash
-cp .env.example .env
-# Edit .env with your preferred inference provider and voice profile
-```
-
-### Supported Voice Personalities
-- `en-US-ChristopherNeural` (Deep, commanding, executive JARVIS tone)
-- `en-US-GuyNeural` (Crisp, conversational)
-- `en-GB-RyanNeural` (British classic assistant)
-- `bn-BD-PradeepNeural` (Bengali native assistant)
+## 🏷️ Topics & Discoverability
+`jarvis` • `jarvis-ai` • `ai-assistant` • `voice-assistant` • `private-ai` • `ollama` • `edge-tts` • `rich-terminal` • `personal-assistant` • `speech-recognition` • `ai-agent` • `terminal-ui` • `python` • `python3` • `deepseek` • `llama3` • `chatgpt` • `mac-assistant`
 
 ---
 
 ## 📄 License & Attribution
 
 Architected and developed by [Khalid Abdullah](https://github.com/khalidabdullahh).
-All rights reserved for internal core engines and enterprise integrations.
+Released under the MIT License.
