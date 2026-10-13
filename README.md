@@ -6,6 +6,10 @@
 
 <div align="center">
 
+<img src="docs/assets/ares_thumbnail_dark.jpg" alt="A.R.E.S. Hero Showcase" width="100%" style="border-radius: 12px;" />
+
+<br/><br/>
+
 ![GitHub Stars](https://img.shields.io/github/stars/khalidabdullahh/ares?style=for-the-badge&logo=github&color=00d2ff)
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-000000?style=for-the-badge&logo=apple&logoColor=white)
@@ -17,6 +21,11 @@
 
 <h3><b>The Next-Generation Private, Voice-Enabled Executive Terminal AI Companion</b></h3>
 <i>Engineered for zero-leak local computation, low-latency neural speech synthesis, and autonomous operating system execution.</i>
+
+<p>
+  <a href="docs/assets/ares_thumbnail_dark.jpg"><b>[Dark Theme Thumbnail]</b></a> &nbsp;•&nbsp; 
+  <a href="docs/assets/ares_thumbnail_light.jpg"><b>[Light Theme Thumbnail]</b></a>
+</p>
 
 </div>
 
